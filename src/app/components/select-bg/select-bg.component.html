@@ -1,5 +1,5 @@
-
-    <mat-form-field appearance="fill">
+<div class="center">
+  <mat-form-field appearance="fill">
         <mat-label>Select background</mat-label>
         <mat-select   (selectionChange)="Changed($event.value)">
           <mat-option *ngFor="let background of backgrounds" [value]="background.name">
@@ -11,6 +11,8 @@
     <mat-form-field appearance="fill">
       <input matInput placeholder = "Display text" value = "Welcome to BIGVU" [(ngModel)]="title">
    </mat-form-field>
+</div>
+    
 
 
    <mat-card>

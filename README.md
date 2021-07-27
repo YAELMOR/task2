@@ -2,6 +2,15 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.2.
 
+Installations:
+For Node & npm: download the latest version of node from: https://nodejs.org/en/download/
+
+For Angular cli: run: npm install -g @angular/cli
+
+For Angular material: run: ng add @angular/material
+
+(gh repo clone YAELMOR/task2)
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
