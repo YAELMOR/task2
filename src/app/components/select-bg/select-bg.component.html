@@ -1,0 +1,36 @@
+
+    <mat-form-field appearance="fill">
+        <mat-label>Select background</mat-label>
+        <mat-select   (selectionChange)="Changed($event.value)">
+          <mat-option *ngFor="let background of backgrounds" [value]="background.name">
+            {{background.name}}
+          </mat-option>
+        </mat-select>
+    </mat-form-field>
+
+    <mat-form-field appearance="fill">
+      <input matInput placeholder = "Display text" value = "Welcome to BIGVU" [(ngModel)]="title">
+   </mat-form-field>
+
+
+   <mat-card>
+        <mat-card-content>
+          <img [src] ="ImagePath" class="center">
+            <style>
+              img {
+                border: 20px solid #ddd;
+                border-radius: 4px;
+                padding: 0px;
+                width: 150px;
+    
+                width: 640px;
+                height: 360px;
+              }  
+            </style>
+            <div class="centered" >
+              {{title}}
+
+
+            </div>
+        </mat-card-content>
+    </mat-card>

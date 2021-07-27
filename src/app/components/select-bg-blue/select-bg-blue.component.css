@@ -1,0 +1,21 @@
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.form {
+  min-width: 150px;
+  max-width: 200px;
+  width: 100%;
+}
+
+.full-width {
+  width: 100%;
+}
